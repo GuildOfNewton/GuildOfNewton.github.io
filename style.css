@@ -12,3 +12,7 @@ h1 {
     top: 50%;
     transform: tanslate(0px, -50%)
 }
+
+.articles {
+    right: 0;
+}
