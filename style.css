@@ -6,3 +6,9 @@ body {
 h1 {
     text-align: center;
 }
+
+.discord {
+    position: fixed;
+    top: 50%;
+    transform: tanslate(0px, -50%)
+}
