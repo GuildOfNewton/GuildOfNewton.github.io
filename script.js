@@ -10,7 +10,6 @@ function closeNav() {
 
 function toggleNav() {
   open = document.getElementById("sidebar").style.width;
-  console.log(open)
 
   if ( open == "30%") {
     closeNav()
