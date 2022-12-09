@@ -1,8 +1,8 @@
-body {
+.body {
     background-color: purple;
     color: yellow;
 }
 
-title {
+.title {
     text-align: center;
 }
