@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>The RPG Guild of Newton</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v1">
+    <script src="script.js"></script>
   </head>
-  <body>
-    <div id="page_header">
-      <div id="title">
+  <body onload="is_open=true">
+    <div class="page_header">
+      <button class="openbtn" onclick="toggleNav()">&#9776;</button>
+      <div class="title">
         <h1>The RPG Guild of Newton</h1>
       </div> <!--title--!>
     </div> <!--header--!>
-    <div id="page_body">
-      <div id="discord">
-      <!--<iframe src="https://discord.com/widget?id=1050495409031753838&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-	      </iframe>--!>
-      </div><!--discord--!>
-      <div id="articles">
+    <div id="page_body" class="page_body">
+      <div id="sidebar" class="sidebar">
+      </div><!--sidebar--!>
+      <div class="articles">
         <article>
 	  <h2>Welcome!</h2>
 	  <p>Welcome to the RPG Guild of Newton!  We are a role-player group with an emphasis on Dungeons and Dragons.  We appreciate you being a part of the group and hope you have fun.  We also appreciate your patients as we get things going.  We hope to start meeting weekly in February 2023.  We'll remind you as we get closer.  Discord will be where all official communications will be, so check there often.</p>
