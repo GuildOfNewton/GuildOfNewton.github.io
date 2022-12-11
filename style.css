@@ -1,6 +1,8 @@
 body {
-    background-color: rgb(49, 5, 49);
+    #background-color: rgb(49, 5, 49);
+    background-color: rgb(125, 32, 150);
     color: rgb(209, 209, 31);
+    font-family: verdana, sans-serif;
 }
 
 h1 {
@@ -24,6 +26,38 @@ h1 {
   transition: 0.5s
 }
 
+.sidebar a {
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  background-size: 100%;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  position: relative;
+}
+
+.sidebar a:hover {
+  background-color: rgb(209, 209, 31);
+  color: rgb(125, 32, 150);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a:visited {
+    color: rgb(209, 209, 31);
+}
+
 .sidebar .closebtn {
   font-size: 20px;
   cursor: pointer;
@@ -39,7 +73,7 @@ h1 {
   top: 0;
   left: 0;
   position: fixed;
-  background-color: rgb(49, 5, 49);
+  background-color: rgb(125, 32, 150);
   color: rgb(209, 209, 31);
 }
 
@@ -60,7 +94,7 @@ article {
 
 article h2 {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .calendar {
@@ -79,8 +113,41 @@ article h2 {
   
 }
 
-@media screen and (max-height: 450px) {
+table {
+  padding-left: 20px;
+}
+
+td {
+  padding-right: 20px;
+}
+
+.bottom-bar {
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: rgb(209, 209, 31);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+.bottom-bar-content {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.bottom-bar-content > * {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-height: 500) {
     .sidebar {padding-top: 15px;}
-    .sidebar a (font-size: 28px}
+    .openbtn (font-size: 88px}
 }
 
