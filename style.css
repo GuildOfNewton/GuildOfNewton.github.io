@@ -99,7 +99,8 @@ article {
 
 article h2 {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+  drop-shadow(16px 16px 10px black);
 }
 
 .calendar {
@@ -151,10 +152,5 @@ td {
 .bottom-bar-content > * {
   display: flex;
   align-items: center;
-}
-
-@media screen and (max-height: 500) {
-    .sidebar {padding-top: 15px;}
-    .openbtn (font-size: 88px}
 }
 
