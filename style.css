@@ -1,6 +1,6 @@
 body {
     #background-color: rgb(49, 5, 49);
-    background-color: rgb(125, 32, 150);
+    background-color: rgb(78, 64, 78);
     color: rgb(209, 209, 31);
     font-family: verdana, sans-serif;
 }
@@ -41,7 +41,7 @@ h1 {
 
 .sidebar a:hover {
   background-color: rgb(209, 209, 31);
-  color: rgb(125, 32, 150);
+  color: rgb(78, 64, 78);
 }
 
 .sidebar ul {
@@ -74,7 +74,7 @@ a:visited {
   top: 0;
   left: 0;
   position: fixed;
-  background-color: rgb(125, 32, 150);
+  background-color: rgb(78,6432, 78);
   color: rgb(209, 209, 31);
 }
 
