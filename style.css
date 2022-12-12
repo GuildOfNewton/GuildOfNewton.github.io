@@ -1,6 +1,11 @@
 body {
-    background-color: rgb(49, 5, 49);
-    color: rgb(209, 209, 31);
+    #background-color: rgb(49, 5, 49);
+    background-color: rgb(78, 64, 78);
+    color: rgb(250, 218, 94);
+    font-family: verdana, sans-serif;
+    font-size: medium;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 
 h1 {
@@ -21,7 +26,41 @@ h1 {
   top: 40px;
   overflow-x: hidden;
   padding-top: 60px;
-  transition: 0.5s
+  transition: 0.5s;
+  font-size: medium;
+}
+
+.sidebar a {
+  color: rgb(250, 218, 94);
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  background-size: 100%;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  position: relative;
+}
+
+.sidebar a:hover {
+  background-color: rgb(250, 218, 94);
+  color: rgb(78, 64, 78);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a:visited {
+    color: rgb(250, 218, 94);
 }
 
 .sidebar .closebtn {
@@ -39,8 +78,8 @@ h1 {
   top: 0;
   left: 0;
   position: fixed;
-  background-color: rgb(49, 5, 49);
-  color: rgb(209, 209, 31);
+  background-color: rgb(78,64, 78);
+  color: rgb(250, 218, 94);
 }
 
 .openbtn.hover {
@@ -52,7 +91,70 @@ h1 {
     overflow: auto;
 }
 
-@media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a (font-size: 28px}
+article {
+  padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+article h2 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.calendar {
+  border: 0;
+  width: 100%;
+  height: 600px;
+  border: 0;
+}
+
+.contact_us {
+  width: 100%;
+  height: 880px;
+  border: 0;
+  margin-height: 0;
+  margin-width: 0;
+  
+}
+
+table {
+  padding-left: 20px;
+  font-size: medium;
+}
+
+td {
+  padding-right: 20px;
+  font-size: medium;
+}
+
+.bottom-bar {
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: rgb(250, 218, 94);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+.bottom-bar-content {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.bottom-bar-content > * {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-height: 500) {
+    .sidebar {padding-top: 15px;}
+    .openbtn (font-size: 88px}
+}
+
