@@ -3,7 +3,7 @@ body {
     background-color: rgb(78, 64, 78);
     color: rgb(250, 218, 94);
     font-family: verdana, sans-serif;
-    font-size: medium;:w
+    font-size: medium;
 }
 
 h1 {
@@ -118,6 +118,7 @@ article h2 {
 
 table {
   padding-left: 20px;
+  font-size: medium;
 }
 
 td {
