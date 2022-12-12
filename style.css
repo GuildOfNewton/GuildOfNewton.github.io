@@ -4,6 +4,8 @@ body {
     color: rgb(250, 218, 94);
     font-family: verdana, sans-serif;
     font-size: medium;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 
 h1 {
