@@ -20,7 +20,7 @@ function toggleNav() {
 
 function loadFrame(url, name) {
   var div = document.getElementById("calendar_div");
-  var placeholder = div.getElementById("cal_loading");
+  var placeholder = document.getElementById("cal_loading");
   var frame = document.createElement("iframe");
   frame.src = url;
   frame.classList.add("calendar");
