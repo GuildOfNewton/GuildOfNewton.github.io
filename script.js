@@ -23,10 +23,12 @@ function loadFrame(url, name) {
   var placeholder = document.getElementById("cal_loading");
   var frame = document.createElement("iframe");
   frame.src = url;
-  frame.classList.add("calendar");
-  frame.style.visibility = "visible";
-  let trash = div.removeChild(placeholder);
-  div.appendChild(frame);
+  iframe.onload = () => {
+    frame.classList.add("calendar");
+    frame.style.visibility = "visible";
+    let trash = div.removeChild(placeholder);
+    div.appendChild(frame);
+  }
 }
 
 function loadEvent() {
