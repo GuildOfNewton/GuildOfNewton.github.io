@@ -19,7 +19,7 @@ function toggleNav() {
 }
 
 function loadFrame(url, name) {
-  var frame = document.getElementByClassName(name);
+  var frame = document.getElementByClassId(name);
   frame.src = url;
 }
 
