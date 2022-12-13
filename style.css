@@ -117,6 +117,7 @@ article h2 {
 }
 
 .spinner {
+  display: inline-block;
   align: center;
   top: 50%;
   height: 4rem;
