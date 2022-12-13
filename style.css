@@ -121,7 +121,7 @@ article h2 {
   display: inline-block;
   align: center;
   top: 50%;
-  position: absolute;
+  position: relative;
   height: 4rem;
   width: 4rem;
   border: 0;
