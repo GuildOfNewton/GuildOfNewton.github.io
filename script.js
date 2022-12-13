@@ -25,8 +25,8 @@ function loadFrame(url, name) {
   frame.src = url;
   frame.classList.add("calendar");
   frame.style.visibility = "visible";
-  div.appendChild(frame);
   let trash = div.removeChild(placeholder);
+  div.appendChild(frame);
 }
 
 function loadEvent() {
