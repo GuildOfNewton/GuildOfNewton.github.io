@@ -21,6 +21,7 @@ function toggleNav() {
 function loadFrame(url, name) {
   var frame = document.getElementById(name);
   frame.src = url;
+  frame.visibility = "visible";
 }
 
 function loadEvent() {
