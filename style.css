@@ -117,6 +117,8 @@ article h2 {
 }
 
 .spinner {
+  align: center;
+  top: 50%;
   height: 4rem;
   width: 4rem;
   border: 0;
