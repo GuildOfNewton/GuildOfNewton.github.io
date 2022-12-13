@@ -18,3 +18,6 @@ function toggleNav() {
   }
 }
 
+function loadEvent() {
+  is_open=true
+}
