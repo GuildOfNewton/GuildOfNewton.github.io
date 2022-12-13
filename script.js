@@ -19,9 +19,14 @@ function toggleNav() {
 }
 
 function loadFrame(url, name) {
-  var frame = document.getElementById(name);
+  var div = document.getElementById("cal");
+  var placeholder = document.getElementById("cal_loading");
+  var frame = document.createElement("iframe");
   frame.src = url;
+  frame.classList.add("calendar");
   frame.style.visibility = "visible";
+  let trash = div.removeChild(placeholder);
+  div.appendChild(frame);
 }
 
 function loadEvent() {
