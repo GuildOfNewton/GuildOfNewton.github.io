@@ -18,6 +18,13 @@ function toggleNav() {
   }
 }
 
+function loadFrame(url, name) {
+  var frame = document.getElementByClassName(name);
+  frame.src = url
+}
+
 function loadEvent() {
-  is_open=true
+  is_open=true;
+  loadFrame("https://calendar.google.com/calendar/embed?src=c_7b7bdc3cd4d3329ab32369b9ad5f9f88747abde1550fa88f70ab593f32dce573%40group.calendar.google.com&ctz=America%2FChicago", "calendar");
+  
 }
