@@ -9,11 +9,8 @@ body {
 }
 
 h1 {
-  text-shadow: 2px 2px #000000;
-}
-
-h1 {
     text-align: center;
+    text-shadow: 2px 2px #000000;
 }
 
 .page_body {
