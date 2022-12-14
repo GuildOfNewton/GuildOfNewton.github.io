@@ -22,8 +22,7 @@ function loadFrame(url, name) {
   var div = document.getElementById("calendar_div");
   var placeholder = document.getElementById("cal_loading");
   var frame = document.createElement("iframe");
-  fetch(url, { mode: 'no-cors'}).then((response) => response.json()).then((data) => frame.srcdoc = data);
-  //frame.src = url;
+  frame.src = url;
   frame.classList.add("calendar");
   frame.style.visibility = "visible";
   let trash = div.removeChild(placeholder);
