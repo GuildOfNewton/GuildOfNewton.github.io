@@ -33,3 +33,7 @@ function loadEvent() {
   is_open=true;
   loadFrame("https://calendar.google.com/calendar/embed?src=c_7b7bdc3cd4d3329ab32369b9ad5f9f88747abde1550fa88f70ab593f32dce573%40group.calendar.google.com&ctz=America%2FChicago", "calendar");
 }
+
+function onSubmit(token) {
+  document.getElementById("demo-form").submit();
+}

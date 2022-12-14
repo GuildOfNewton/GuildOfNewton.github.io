@@ -5,6 +5,7 @@
   <title>The RPG Guild of Newton</title>
   <link rel="stylesheet" href="style.css?v1">
   <script src="script.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 
 <body onload="loadEvent()">
@@ -107,7 +108,7 @@
           </table>
         </article>
         <article>
-	        <h2 id="coc">Code of Conduct</h2>
+	  <h2 id="coc">Code of Conduct</h2>
           <p>The RPG Guild of Newton wishes to provide a fun, safe, and harassment-free experience for everyone.
              Everyone is welcome regardless of gender, identity, sexual orientation, disability, appearance, body size,
              race, or religion.  We do not tolerate harassment of any kind, in or out of the game. Participants violating
@@ -116,7 +117,7 @@
              facilitate gameplay and make the final decision on rules.  It is up to the DM as to what rules they play with.
              Please, respect what the DM says and avoid game-stopping arguments.  DM’s need to keep the gameplay fun and
              engaging for all players.</p>       
-          <p>The financial requirements to play are up to you the player.  D&mp;D can be a very cheap game to play.
+          <p>The financial requirements to play are up to you the player.  D&amp;D can be a very cheap game to play.
              You may use an existing mobile device like a smartphone/tablet or use paper and pencil.  We do not want
              financial hardships preventing you from playing.  If you cannot afford something, please, speak with one
              of the organizers.  The organizers try to keep the costs as low as possible.</p>
@@ -135,9 +136,13 @@
         <article>
           <h2 id="contact_us">Contact Us</h2>
           <p>
+            <form>
+              <button class="g-recaptcha" 
+                data-sitekey="6LfGU30jAAAAAJ-lUWKPFPwPDb5DjkPWmcCxgHKj" 
+                data-callback='onSubmit' 
+                data-action='submit'>Submit</button>
+            </form>
           </p>
-          <iframe class="contact_us" src="https://docs.google.com/forms/d/e/1FAIpQLSdLOkU4ADNj13B7OpgJ9WjaRcRzWjf8VWtHHNIF_j7Cw932kQ/viewform?embedded=true">
-          </iframe>
         </article>
       </div><!--articles-->
     </div><!--page_body-->
