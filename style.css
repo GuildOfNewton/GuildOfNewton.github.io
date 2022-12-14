@@ -98,6 +98,7 @@ article {
 }
 
 article h2 {
+  border-radius: 25px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
 }
