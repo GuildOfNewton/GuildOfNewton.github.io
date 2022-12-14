@@ -90,6 +90,7 @@ a:visited {
 .articles {
     display: flex;
     flex-flow: column wrap;
+    flex-wrap: wrap;
     overflow: auto;
 }
 
