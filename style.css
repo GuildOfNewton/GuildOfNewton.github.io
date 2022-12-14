@@ -44,6 +44,7 @@ h1 {
 }
 
 .sidebar a:hover {
+  border-radius: 15px;
   background-color: rgb(250, 218, 94);
   color: rgb(78, 64, 78);
 }
