@@ -88,8 +88,7 @@ a:visited {
 }
 
 .articles {
-    flex: 2;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     overflow: auto;
 }
 
