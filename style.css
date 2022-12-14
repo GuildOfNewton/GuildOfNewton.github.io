@@ -91,6 +91,7 @@ a:visited {
 
 .articles {
     display: flex;
+    flex: 2;
     flex-direction: column;
     flex-wrap: wrap;
     overflow: auto;
