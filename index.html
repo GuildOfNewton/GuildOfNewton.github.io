@@ -5,6 +5,7 @@
   <title>The RPG Guild of Newton</title>
   <link rel="stylesheet" href="style.css?v1">
   <script src="script.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 
 <body onload="loadEvent()">
@@ -135,9 +136,13 @@
         <article>
           <h2 id="contact_us">Contact Us</h2>
           <p>
+            <form>
+              <button class="g-recaptcha" 
+                data-sitekey="6LfGU30jAAAAAJ-lUWKPFPwPDb5DjkPWmcCxgHKj" 
+                data-callback='onSubmit' 
+                data-action='submit'>Submit</button>
+            </form>
           </p>
-          <iframe class="contact_us" src="https://docs.google.com/forms/d/e/1FAIpQLSdLOkU4ADNj13B7OpgJ9WjaRcRzWjf8VWtHHNIF_j7Cw932kQ/viewform?embedded=true">
-          </iframe>
         </article>
       </div><!--articles-->
     </div><!--page_body-->
