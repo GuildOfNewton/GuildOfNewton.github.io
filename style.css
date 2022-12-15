@@ -102,7 +102,7 @@ article {
   padding-left: 10px;
   padding-right: 10px;
   overflow: auto;
-  flex-basis: 50%;
+  flex-basis: 45%;
 }
 
 article h2 {
