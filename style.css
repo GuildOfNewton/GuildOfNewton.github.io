@@ -104,15 +104,15 @@ article {
   padding-left: 10px;
   padding-right: 10px;
   overflow: auto;
-  flex-basis: 45%;
+  flex-basis: 50%;
 }
 
 .welcome_article {
-    flex-basis: 90%;
+    flex-basis: 100%;
 }
 
 .what_to_bring_article {
-    flex-basis: 90%;
+    flex-basis: 100%;
 }
 
 article h2 {
