@@ -97,11 +97,11 @@ a:visited {
 }
 
 article {
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   overflow: auto;
 }
 
@@ -192,6 +192,9 @@ td {
 }
 
 @media (max-width: 800px) {
+  article {
+      width: 100%;
+  }
   body {
       font-size: larger;
   }
