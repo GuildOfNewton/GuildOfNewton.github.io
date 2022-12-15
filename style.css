@@ -105,11 +105,11 @@ article {
   flex-basis: 45%;
 }
 
-article .welcome_article {
+.welcome_article {
     flex-basis: 100%;
 }
 
-article .what_to_bring_article {
+.what_to_bring_article {
     flex-basis: 100%;
 }
 
