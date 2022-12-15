@@ -105,6 +105,14 @@ article {
   flex-basis: 45%;
 }
 
+article .welcome_article {
+    flex-basis: 100%;
+}
+
+article .what_to_bring_article {
+    flex-basis: 100%;
+}
+
 article h2 {
   border-radius: 25px;
   text-align: center;
