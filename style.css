@@ -198,3 +198,15 @@ td {
     font-size: larger;
   }
 }
+
+@media (min-width: 1280px) {
+  body {
+      font-size: small;
+  }
+  .sidebar {
+      font-size: small;
+  }
+  .openbtn {
+    font-size: small;
+  }
+}
