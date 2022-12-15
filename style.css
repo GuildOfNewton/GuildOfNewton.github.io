@@ -204,7 +204,7 @@ td {
 
 @media (max-width: 800px) {
   .articles {
-      flex-flow: wrap column;
+      flex-flow: wrap row;
   }
   article {
       flex-basis: 90%;
