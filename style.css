@@ -219,6 +219,9 @@ td {
   .openbtn {
     font-size: larger;
   }
+  .calendar {
+      height: 100%;
+  }
 }
 
 @media (min-width: 1280px) {
