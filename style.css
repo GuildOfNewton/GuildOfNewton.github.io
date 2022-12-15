@@ -108,11 +108,11 @@ article {
 }
 
 .welcome_article {
-    flex-basis: 100%;
+    flex-basis: 90%;
 }
 
 .what_to_bring_article {
-    flex-basis: 100%;
+    flex-basis: 90%;
 }
 
 article h2 {
