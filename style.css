@@ -1,6 +1,6 @@
 body {
     display: flex;
-    flex-flow: nowrap row;
+    flex-flow: nowrap column;
     background-color: rgb(78, 64, 78);
     color: rgb(250, 218, 94);
     font-family: verdana, sans-serif;
