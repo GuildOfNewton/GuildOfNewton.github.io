@@ -3,7 +3,7 @@
 
 <head>
   <title>The RPG Guild of Newton</title>
-  <link rel="stylesheet" href="style.css?v1">
+  <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
   <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
@@ -26,9 +26,9 @@
         </ul>
       </div><!--sidebar-->
       <div class="articles">
-      <article>
-	      <h2 id="welcome">Welcome!</h2>
-	        <p>Welcome to the RPG Guild of Newton!  We are a role-player
+      <article id="welcome_article" class="welcome_article">
+       <h2 id="welcome">Welcome!</h2>
+	<p>Welcome to the RPG Guild of Newton!  We are a role-player
              group with an emphasis on Dungeons and Dragons.  We
              appreciate you being a part of the group and hope you
              have fun.  We also appreciate your patients as we get
@@ -36,8 +36,8 @@
              February 2023.  We'll remind you as we get closer.
              Discord will be where all official communications
              will be, so check there often.</p>
-	     </article>
-       <article>
+       </article>
+       <article id="what_to_bring_article" class="what_to_bring_article">
          <h2 id="what_to_bring">What to Bring</h2>
          <p>
             Generally speaking, one doesn't need a lot of materials to
@@ -102,10 +102,14 @@
             <tr>
               <td><a href="https://www.amazon.com/Players-Handbook-Dungeons-Dragons-Wizards/dp/0786965606/ref=sr_1_1">D&amp;D Player Handbook</a></td>
               <td>It is helpful to have the player's handbook to read and for reference.
-                  You may learn without it, so this is optional.</td>
+                  You may learn without it, so this is optional.
               </td>
             </tr>
           </table>
+        </article>
+        <article id="calendar_div">
+          <h2 id="cal">Calendar</h2>
+          <div id="cal_loading" class="cal_loading"><div id="spinner" class="spinner"></div></div>
         </article>
         <article>
 	  <h2 id="coc">Code of Conduct</h2>
@@ -118,7 +122,7 @@
              Please, respect what the DM says and avoid game-stopping arguments.  DM’s need to keep the gameplay fun and
              engaging for all players.</p>       
           <p>The financial requirements to play are up to you the player.  D&amp;D can be a very cheap game to play.
-             You may use an existing mobile device like a smartphone/tablet or use paper and pencil.  We do not want
+             You may use an existing mobile device like a smartphone/tablet or use paper and dice.  We do not want
              financial hardships preventing you from playing.  If you cannot afford something, please, speak with one
              of the organizers.  The organizers try to keep the costs as low as possible.</p>
           <p>Play safe and clean.  No weapons, real or props, are allowed on the premises. The only weapons allowed are
@@ -129,20 +133,14 @@
           <p>You may contact an organizer or a DM to report violations of this code of conduct.</p>
           
         </article>
-        <article id="calendar_div">
-          <h2 id="cal">Calendar</h2>
-          <div id="cal_loading" class="cal_loading"><div id="spinner" class="spinner"></div></div>
-        </article>
         <article>
           <h2 id="contact_us">Contact Us</h2>
-          <p>
             <form>
               <button class="g-recaptcha" 
                 data-sitekey="6LfGU30jAAAAAJ-lUWKPFPwPDb5DjkPWmcCxgHKj" 
                 data-callback='onSubmit' 
                 data-action='submit'>Submit</button>
             </form>
-          </p>
         </article>
       </div><!--articles-->
     </div><!--page_body-->

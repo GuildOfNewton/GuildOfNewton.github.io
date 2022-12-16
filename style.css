@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-flow: nowrap column;
     background-color: rgb(78, 64, 78);
     color: rgb(250, 218, 94);
     font-family: verdana, sans-serif;
@@ -14,10 +16,9 @@ h1 {
 
 .page_body {
   display: flex;
-  width: 100%;
-  height: 100%;
   transition: margin-left .5s;
   padding: 20px;
+  padding-right: 20px;
 }
 
 .sidebar {
@@ -90,14 +91,26 @@ a:visited {
 }
 
 .articles {
+    display: flex;
     flex: 1;
+    flex-flow: wrap row;
     overflow: auto;
 }
 
 article {
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   padding-left: 10px;
   padding-right: 10px;
+  overflow: auto;
+  flex-basis: 45%;
+}
+
+.welcome_article {
+    flex-basis: 90%;
+}
+
+.what_to_bring_article {
+    flex-basis: 90%;
 }
 
 article h2 {
@@ -109,7 +122,8 @@ article h2 {
 .calendar {
   border: 0;
   width: 100%;
-  height: 600px;
+  height: 85%;
+  /*height: 600px;*/
   border: 0;
   visibility: hidden;
 }
@@ -186,8 +200,36 @@ td {
   align-items: center;
 }
 
-@media screen and (max-width: 400) {
+@media (max-width: 800px) {
+  .articles {
+      flex-flow: wrap row;
+  }
+  article {
+      flex-basis: 90%;
+      width: 100%;
+  }
+  body {
+      font-size: larger;
+  }
+  .sidebar {
+      font-size: larger;
+  }
   .openbtn {
     font-size: larger;
+  }
+  .calendar {
+      height: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+      font-size: small;
+  }
+  .sidebar {
+      font-size: small;
+  }
+  .openbtn {
+    font-size: small;
   }
 }
